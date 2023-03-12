@@ -26,4 +26,15 @@
 #define LYSI_CNT 1
 #define LYSI_NAME "lysi_dev"
 
+#define LYSI_TYPE               '?'
+#define LYSI_MAGIC              100
+#define LYSI_IOCTL_CMD0         (_IO(LYSI_TYPE, LYSI_MAGIC+0))
+#define LYSI_IOCTL_CMD1         (_IO(LYSI_TYPE, LYSI_MAGIC+1))
+#define LYSI_IOCTL_CMD2         (_IO(LYSI_TYPE, LYSI_MAGIC+2))
+#define LYSI_IOCTL_CMD3         (_IO(LYSI_TYPE, LYSI_MAGIC+3))
+#define LYSI_IOCTL_CMD4         (_IO(LYSI_TYPE, LYSI_MAGIC+4))
+#define LYSI_IOCTL_CMD5         (_IO(LYSI_TYPE, LYSI_MAGIC+5))
+#define LYSI_IOCTL_CMD6         (_IO(LYSI_TYPE, LYSI_MAGIC+6))
+#define LYSI_IOCTL_CMD7         (_IO(LYSI_TYPE, LYSI_MAGIC+7))
+
 #endif
